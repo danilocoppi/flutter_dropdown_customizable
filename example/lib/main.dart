@@ -50,8 +50,10 @@ class _MyNormalDropDownState extends State<MyNormalDropDown> {
       dropdownMenuRadius: 22,
       dropdownMenuBorder: Border.all(color: const Color(0xFF00FF00), width: 4),
       dropdownMenuIgnoreOffset: false,
-      dropdownMenuGradient:
-          LinearGradient(colors: [Color(0xFFFF0000), Color(0xFFFFFFFF)], begin: Alignment.topCenter, end: Alignment.bottomCenter),
+      dropdownMenuGradient: LinearGradient(
+          colors: [Color(0xFFFF0000), Color(0xFFFFFFFF)],
+          begin: Alignment.topCenter,
+          end: Alignment.bottomCenter),
       onChanged: (String newValue) {
         setState(() {
           dropdownValue = newValue;
@@ -85,8 +87,10 @@ class _MyCustomDropDownState extends State<MyCustomDropDown> {
       dropdownMenuRadius: 0,
       dropdownMenuBorder: Border.all(color: const Color(0xFF0000FF), width: 2),
       dropdownMenuIgnoreOffset: true,
-      dropdownMenuGradient:
-          LinearGradient(colors: [Color(0xFF00FF00), Color(0xFFFFFF00)], begin: Alignment.topCenter, end: Alignment.bottomCenter),
+      dropdownMenuGradient: LinearGradient(
+          colors: [Color(0xFF00FF00), Color(0xFFFFFF00)],
+          begin: Alignment.topCenter,
+          end: Alignment.bottomCenter),
       onChanged: (String newValue) {
         setState(() {
           dropdownValue = newValue;
