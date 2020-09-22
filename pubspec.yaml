@@ -1,0 +1,16 @@
+name: dropdown_customizable
+version: 1.0.0
+
+description: Customizable dropdown menu styles as border radius, border color and more...
+homepage: https://github.com/danilocoppi/flutter_dropdown_customizable
+
+environment:
+  sdk: ">=2.8.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

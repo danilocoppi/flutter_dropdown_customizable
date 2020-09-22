@@ -1,0 +1,25 @@
+name: dropdown_customizable_example
+version: 0.0.1
+authors:
+  - "Danilo Coppi"
+
+description: Example of dropdown_customizable.
+homepage: https://github.com/danilocoppi/flutter_dropdown_customizable
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^0.1.3
+  dropdown_customizable: 1.0.0
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+    
+flutter:
+  uses-material-design: true
+
+
