@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:dropdown_customizable/lib.dart';
+import 'package:dropdown_customizable/dropdown_customizable.dart';
 
 void main() => runApp(MyApp());
 
